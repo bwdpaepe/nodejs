@@ -1,0 +1,27 @@
+{
+  "name": "datalayer-exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "scripts": {
+    "manual:examples": "node ./src/manual/examples.js",
+    "manual:exercises": "node ./src/manual/exercises.js",
+    "manual:solution": "node ./src/manual/solution.js",
+    "querybuilder:examples": "node ./src/querybuilder/examples.js",
+    "querybuilder:exercises": "node ./src/querybuilder/exercises.js",
+    "querybuilder:solution": "node ./src/querybuilder/solution.js",
+    "rel-querybuilder:examples": "node ./src/relational-querybuilder/examples.js",
+    "rel-querybuilder:exercises": "node ./src/relational-querybuilder/exercises.js",
+    "rel-querybuilder:solution": "node ./src/relational-querybuilder/solution.js",
+    "orm:examples": "node ./src/orm/examples.js",
+    "orm:exercises": "node ./src/orm/exercises.js",
+    "orm:solution": "node ./src/orm/solution.js"
+  },
+  "dependencies": {
+    "knex": "^0.21.21",
+    "mysql2": "^2.3.0",
+    "objection": "^2.2.15",
+    "sequelize": "^6.6.5"
+  }
+}

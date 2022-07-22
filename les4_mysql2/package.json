@@ -1,0 +1,10 @@
+{
+  "name": "les4_mysql2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.95.14",
+    "mysql2": "^2.3.3"
+  }
+}
